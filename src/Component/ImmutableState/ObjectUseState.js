@@ -9,8 +9,7 @@ function ObjectUseState(){
     const [person, setPerson] = useState(initState)
 
     const changeName = () => {
-        person.firstName = 'Bruce'
-        person.lastName = 'Lee'
+        setPerson({...person,firstName:'Bruce',lastName:'Lee'})
     }
 
     console.log("rendering")
