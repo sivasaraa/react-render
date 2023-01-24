@@ -5,6 +5,7 @@ import UseReducer from './Component/UseReducer/UseReducer';
 import ObjectUseState from './Component/ImmutableState/ObjectUseState';
 import ArrayUseState from './Component/ImmutableState/ArrayUseState';
 import Parent from './Component/ParentChild/Parent';
+import ParentOne from './Component/Optimized/ParentOne';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* <UseReducer /> */}
       {/* <ObjectUseState /> */}
       {/* <ArrayUseState /> */}
-      <Parent />
+      {/* <Parent /> */}
+      <ParentOne />
     </div>
   );
 }
