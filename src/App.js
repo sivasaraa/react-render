@@ -7,6 +7,7 @@ import ArrayUseState from './Component/ImmutableState/ArrayUseState';
 import Parent from './Component/ParentChild/Parent';
 import ParentOne from './Component/Optimized/ParentOne';
 import ChildOne from './Component/Optimized/ChildOne';
+import GrandParent from './Component/Optimized/GrandParent';
 
 function App() {
   return (
@@ -16,9 +17,7 @@ function App() {
       {/* <ObjectUseState /> */}
       {/* <ArrayUseState /> */}
       {/* <Parent /> */}
-      <ParentOne>
-        <ChildOne />
-      </ParentOne>
+      <GrandParent />
     </div>
   );
 }
