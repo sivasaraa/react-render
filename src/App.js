@@ -9,6 +9,7 @@ import ParentOne from './Component/Optimized/ParentOne';
 import ChildOne from './Component/Optimized/ChildOne';
 import GrandParent from './Component/Optimized/GrandParent';
 import ParentTwo from './Component/Optimized/ParentTwo';
+import ParentThree from './Component/IncorrectOptimization/ParentThree';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       {/* <ArrayUseState /> */}
       {/* <Parent /> */}
       {/* <GrandParent /> */}
-      <ParentTwo />
+      {/* <ParentTwo /> */}
+      <ParentThree />
     </div>
   );
 }
