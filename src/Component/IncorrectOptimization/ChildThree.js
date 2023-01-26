@@ -1,4 +1,5 @@
 import React from 'react'
+import Child from '../ParentChild/Child'
 
 const ChildThree = () => {
     console.log("child rendering")
@@ -7,4 +8,4 @@ const ChildThree = () => {
     )
 }
 
-export default ChildThree
+export default React.memo(ChildThree)

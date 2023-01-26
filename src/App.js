@@ -10,6 +10,7 @@ import ChildOne from './Component/Optimized/ChildOne';
 import GrandParent from './Component/Optimized/GrandParent';
 import ParentTwo from './Component/Optimized/ParentTwo';
 import ParentThree from './Component/IncorrectOptimization/ParentThree';
+import ChildThree from './Component/IncorrectOptimization/ChildThree';
 
 function App() {
   return (
