@@ -9,7 +9,9 @@ const ParentThree = (props) => {
         <div>
             <button onClick={() => setCount(c => c + 1)}>Click - {count}</button>
             <button onClick={() => setName("code")}>Change Name</button>
-            <ChildThree />
+            <ChildThree name={name}>
+                <strong>Hello</strong>
+            </ChildThree>
         </div>
     )
 }

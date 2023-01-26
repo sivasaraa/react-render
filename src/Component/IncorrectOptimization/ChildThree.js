@@ -1,10 +1,9 @@
 import React from 'react'
-import Child from '../ParentChild/Child'
 
-const ChildThree = () => {
+const ChildThree = (props) => {
     console.log("child rendering")
     return (
-        <div>Child Component</div>
+            <div>{props.children} - {props.name}</div>    
     )
 }
 
