@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import ChildFour from './ChildFour'
 import ChildThree from './ChildThree'
 
 const ParentThree = (props) => {
@@ -9,9 +10,10 @@ const ParentThree = (props) => {
         <div>
             <button onClick={() => setCount(c => c + 1)}>Click - {count}</button>
             <button onClick={() => setName("code")}>Change Name</button>
-            <ChildThree name={name}>
+            <ChildFour name={name} />
+            {/* <ChildThree name={name}>
                 <strong>Hello</strong>
-            </ChildThree>
+            </ChildThree> */}
         </div>
     )
 }
