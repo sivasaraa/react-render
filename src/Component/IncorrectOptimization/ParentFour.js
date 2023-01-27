@@ -16,7 +16,7 @@ const ParentFour = () => {
         <div>
             <button onClick={() => setCount(c => c+1 )}>Click - {count}</button>
             <button onClick={() => setName('code')}>Change Name</button>
-            <ChildFive name={name} fname={person.firstName} lname={person.lastName}/>
+            <ChildFive name={name} person={person}/>
         </div>
     )
 }
