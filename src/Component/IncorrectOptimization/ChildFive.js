@@ -1,10 +1,10 @@
 import React from 'react'
 
-const ChildFive = ({name, person}) => {
+const ChildFive = ({person}) => {
     console.log("child rendering")
     return (
         <div>
-            {name} {person.firstName} {person.lastName}
+            {person.firstName} {person.lastName}
         </div>
     )
 }
