@@ -11,6 +11,7 @@ import GrandParent from './Component/Optimized/GrandParent';
 import ParentTwo from './Component/Optimized/ParentTwo';
 import ParentThree from './Component/IncorrectOptimization/ParentThree';
 import ChildThree from './Component/IncorrectOptimization/ChildThree';
+import ParentFour from './Component/IncorrectOptimization/ParentFour';
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
       {/* <Parent /> */}
       {/* <GrandParent /> */}
       {/* <ParentTwo /> */}
-      <ParentThree />
+      {/* <ParentThree /> */}
+      <ParentFour />
     </div>
   );
 }
