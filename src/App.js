@@ -13,6 +13,7 @@ import ParentThree from './Component/IncorrectOptimization/ParentThree';
 import ChildThree from './Component/IncorrectOptimization/ChildThree';
 import ParentFour from './Component/IncorrectOptimization/ParentFour';
 import ContextParent from './Component/Context/ContextParent';
+import { ChildA } from './Component/Context/ContextChildren';
 
 function App() {
   return (
@@ -26,7 +27,9 @@ function App() {
       {/* <ParentTwo /> */}
       {/* <ParentThree /> */}
       {/* <ParentFour /> */}
-      <ContextParent />
+      <ContextParent>
+        <ChildA />
+      </ContextParent>
     </div>
   );
 }

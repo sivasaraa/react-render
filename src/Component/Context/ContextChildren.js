@@ -11,7 +11,7 @@ export const ChildA = () => {
     )
 }
 
-export const MemoChildA = React.memo(ChildA)
+//export const MemoChildA = React.memo(ChildA)
 
 export const ChildB = () => {
     console.log("child B rendering")
